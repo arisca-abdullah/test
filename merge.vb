@@ -28,19 +28,15 @@ Sub MergeCell()
         If i = (required_data(4) + 0) Then
             csStart = i
             prevCs = Range(required_data(0) & i).Value
-            currCs = Range(required_data(0) & i).Value
 
             unitStart = i
             prevUnit = Range(required_data(1) & i).Value
-            currUnit = Range(required_data(1) & i).Value
 
             plantStart = i
             prevPlant = Range(required_data(2) & i).Value
-            currPlant = Range(required_data(2) & i).Value
 
             disiplinIlmuStart = i
             prevDisiplinIlmu = Range(required_data(3) & i).Value
-            currDisiplinIlmu = Range(required_data(3) & i).Value
         ElseIf i <= required_data(5) Then
             currCs = Range(required_data(0) & i).Value
             currUnit = Range(required_data(1) & i).Value
